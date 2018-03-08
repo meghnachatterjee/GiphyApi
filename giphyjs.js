@@ -41,34 +41,18 @@
            animalDiv.append(image);
  
           // Putting the entire animal above the previous animals
-           $("#animals-view").append(animalDiv);
+           $("#animals-view").prepend(animalDiv);
         
-           //$('#q'+a).on("click",function(results,a) {
-           //  console.log(results[a]);
-           // $(this).attr("src", results[a].images.fixed_width.url);
-            
-         //});
        
         //Ending the if loop
       }
          //Ending the for loop
          }
 
-        // $(document).on("click", ".animalClass", onClickImage);
-        // function onClickImage(image,imgURL,imgID){
-        // console.log(image);
-         //console.log(imgURL);
-         //console.log(imgID);
-         // $(this).attr("src", results[a].images.fixed_width.url);
-        //}
+    
         });
 
       }
-
-      //function onClickImage(image,imgURL,imgID){
-        //console.log(imgID);
-        //$(this).attr("src", results[a].images.fixed_width.url);
-      //}
 
       // Function for displaying animal data
       function renderButtons() {
